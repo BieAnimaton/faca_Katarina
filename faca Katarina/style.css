@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(122, 122, 122);
+}
+
+div#espada {
+}
+
+div#ponta {
+    position: absolute;
+    background-color: rgb(181, 181, 181);
+    width: 40px;
+    top: 295px;
+    left: 1200px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+div#ponta2 {
+    position: absolute;
+    background-color: rgb(181, 181, 181);
+    width: 20px;
+    top: 295px;
+    left: 1200px;
+    height: 80px;
+    z-index: 9;
+}
+
+div#cabo {
+    position: absolute;
+    background-color: rgb(120, 82, 29);
+    width: 160px;
+    left: 1040px;
+    top: 305px;
+    height: 65px;
+    z-index: 9;
+}
+
+div#chappe {
+    position: absolute;
+    background-color: rgb(181, 181, 181);
+    width: 40px;
+    top: 285px;
+    left: 1020px;
+    height: 110px;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+div#lamina {
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    width: 290px;
+    top: 293px;
+    left: 730px;
+    height: 85px;
+    z-index: 7;
+}
+
+div#lamina2 {
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    width: 220px;
+    top: 273px;
+    left: 680px;
+    height: 220px;
+    z-index: 4;
+    border-radius: 50%;
+}
+
+div#curva {
+    position: absolute;
+    background-color: rgb(122, 122, 122);
+    width: 240px;
+    top: 165px;
+    left: 820px;
+    height: 160px;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+div#curva2 {
+    position: absolute;
+    background-color: rgb(122, 122, 122);
+    width: 280px;
+    top: 355px;
+    left: 660px;
+    height: 250px;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+div#curva3 {
+    position: absolute;
+    background-color: rgb(122, 122, 122);
+    width: 180px;
+    top: 330px;
+    left: 870px;
+    height: 140px;
+    border-radius: 50%;
+    z-index: 4;
+}
